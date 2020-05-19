@@ -1,38 +1,7 @@
 {
-  "name": "gulp-htmlmin",
+  "name": "gulp-htmlmin-next",
   "description": "gulp plugin to minify HTML.",
-  "version": "5.0.1",
-  "homepage": "https://github.com/jonschlinkert/gulp-htmlmin",
-  "authors": [
-    {
-      "name": "Jon Schlinkert",
-      "url": "https://github.com/jonschlinkert",
-      "twitter": "jonschlinkert"
-    },
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "https://github.com/shinnn",
-      "twitter": "shinnn_tw"
-    }
-  ],
-  "contributors": [
-    "Brian Woodward (https://twitter.com/doowb)",
-    "Chris Watson (https://github.com/cwonrails)",
-    "Igor Adamenko (http://igoradamenko.com)",
-    "Joel Arvidsson (http://twitter.com/trastknast)",
-    "John-David Dalton (http://twitter.com/jdalton)",
-    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
-    "Jose Chirivella (https://www.jchirivella.com)",
-    "Nico Schlömer (https://github.com/nschloe)",
-    "Shinnosuke Watanabe (https://shinnn.github.io)",
-    "Steve Lacy (http://slacy.me)",
-    "Tom Byrer (https://github.com/tomByrer)",
-    "(https://github.com/TheDancingCode)"
-  ],
-  "repository": "jonschlinkert/gulp-htmlmin",
-  "bugs": {
-    "url": "https://github.com/jonschlinkert/gulp-htmlmin/issues"
-  },
+  "version": "6.0.0",
   "license": "MIT",
   "files": [
     "index.js"
@@ -45,14 +14,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "html-minifier": "^3.5.20",
+    "html-minifier": "^4.0.0",
     "plugin-error": "^1.0.1",
-    "through2": "^2.0.3"
+    "through2": "^3.0.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-format-md": "^1.0.0",
-    "mocha": "^5.2.0",
+    "gulp": "^4.0.2",
+    "mocha": "^7.1.2",
     "vinyl": "^2.2.0"
   },
   "keywords": [
@@ -65,18 +33,5 @@
     "minification",
     "minifier",
     "minify"
-  ],
-  "verb": {
-    "toc": false,
-    "layout": "default",
-    "tasks": [
-      "readme"
-    ],
-    "plugins": [
-      "gulp-format-md"
-    ],
-    "lint": {
-      "reflinks": true
-    }
-  }
+  ]
 }
